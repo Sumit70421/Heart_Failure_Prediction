@@ -1,0 +1,34 @@
+<html>
+	<head><link rel="stylesheet" href="style.css"></head>
+	<body>
+		
+			<center>
+			<h1> HEART FAILURE PREDICTION </h1></center>
+			<body>
+				<div class="center-content">
+					<div class="form-container">
+				<form method="POST", action="{{url_for('home')}}">
+					 <input type="number", name='a', placeholder='Age'><br><br>
+					<input type="number", name='b', placeholder='Anaemia'><br><br>
+					<input type="number", name='c', placeholder='Creatinine Phosphokinase'><br><br>
+					<input type="number", name='d', placeholder='Diabetes'><br><br>
+					<input type="number", name='e', placeholder='Ejection Fraction'><br><br>
+					<input type="number", name='f', placeholder='High Blood Pressure'><br><br>
+					<input type="number", name='g', placeholder='Platelets'><br><br>
+					<input type="number", name='h', placeholder='Serum Creatinine'><br><br>
+					<input type="number", name='i', placeholder='Serum Sodium'><br><br>
+					<b> Gender : <select name="j"><option value="0">Male</option>
+							<option value="1">FeMale</option><op<br><br>
+					<input type="number", name='k', placeholder='Smoking'><br><br>
+					<input type="number", name='l', placeholder='Time'><br><br>
+						
+							<button type="submit"class="button">PREDICT</button></b></div>
+					
+				</b>
+			
+			</form> 
+		</div>
+	</div>
+		
+	</body>
+	</html>
